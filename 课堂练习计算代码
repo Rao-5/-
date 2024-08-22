@@ -16,3 +16,22 @@ int main()
   cout result;
 return 0;
 }
+AI修改：
+#include <iostream>
+using namespace std;
+
+int main() {
+    ifstream infile; // 创建输入文件流对象
+    int data[10] = {0}; // 初始化数组
+    int result = 0;
+    int n = 0; // 循环变量初始化
+    infile.open("filename.txt", ios::in); // 打开文件
+    while (infile >> data[n]) { // 读取文件到数组
+        ++n; // 增加数组索引
+    }
+    for (int i = 0; i < n; ++i) { // 遍历数组
+        result += data[i]; // 计算结果
+    }
+    cout << result << endl; // 输出结果
+    return 0;
+}
