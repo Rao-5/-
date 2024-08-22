@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-void open(const char *filename, ios::openmode mode);
-void fun,add;
-int data[10]=0;
-int result=0;
-infile >> data;//读取文件到数组
-cin=fun
-if (fun=add)
-{
-for(n=0;n=n+1)
-result=data[n]+data[n+1];//死循环，忘了怎么写结束了
+  void open(const char *filename, ios::openmode mode);
+  void fun,add;
+  int data[10]=0;
+  int result=0;
+  infile >> data;//读取文件到数组
+  cin=fun
+  if (fun=add)
+  {
+    for(n=0;n=n+1)
+    result=data[n]+data[n+1];//死循环，忘了怎么写结束了
 }
-cout result;
-    return 0;
+  cout result;
+return 0;
 }
